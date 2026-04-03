@@ -44,7 +44,7 @@ sample_posts = [
 # Create timestamps for posts (simulated)
 timestamps = pd.date_range(start='2024-01-01', periods=len(sample_posts), freq='D')
 
-class ClimateS entimentAnalyzer:
+class ClimateSentimentAnalyzer:
     """Analyze sentiment of climate change related social media posts"""
     
     def __init__(self, posts, timestamps=None):
